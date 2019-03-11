@@ -22,10 +22,10 @@ import (
 	"log"
 	"net"
 
-	"k8s.io/klog"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
+	"k8s.io/klog"
 
 	pb "k8s.io/cloud-provider-vsphere/pkg/cloudprovider/vsphere/proto"
 )
